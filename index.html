@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว</title>
+    <link href="app.css" rel="stylesheet">
+
+    <!-- BOOTSTRAP 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/18ee91e33f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary sticky-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="app-bar" href="#">
+                <i class="fa-solid fa-star"></i>
+                ธรรมนูญ​ วันชะเอม 66230125
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">เมนู</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">
+                                <i class="fa-solid fa-user me-1"></i>
+                                ประวัติส่วนตัว
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./place.html">
+                                <i class="fa-solid fa-map-pin me-1"></i>
+                                สถานที่ประทับใจ
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./history.html">
+                                <i class="fa-solid fa-hand-fist me-1"></i>
+                                ประวัติศาสตร์ประทับใจ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="pt-4" id="app">
+            <h1 class="bg-dark text-light text-center">ประวัติส่วนตัว</h1>
+            <div class="main py-4 ">
+                <div class="main-left-2 p-4">
+                    <img src="./images/mypic.png" class="w-100 h-auto profile">
+                </div>
+                <div class="main-right-2 p-4">
+                    <h2 id="display-name">ธรรมนูญ​ วันชะเอม</h3>
+                        <h5 id="nick-name" class="text-muted">ชื่อเล่น: อิฐ</h5>
+                        <h5 id="gender" class="text-muted">เพศสภาพ: ชาย</h5>
+                        <h5 id="birth-date" class="text-muted">วันเกิด: 27 กันยายน 1997</h5>
+
+                        <div class="mt-3 d-grid gap-2 d-md-block">
+                            <a href="./place.html" type="button" class="btn btn-outline-success btn-lg mb-2 me-1">
+                                <i class="fa-solid fa-map-pin"></i>
+                                สถานที่ประทับใจ
+                            </a>
+                            <a href="./history.html" type="button" class="btn btn-outline-danger btn-lg mb-2">
+                                <i class="fa-solid fa-hand-fist"></i>
+                                ประวัติศาสตร์ประทับใจ
+                            </a>
+                        </div>
+                </div>
+            </div>
+            <div class="main mb-4 ">
+                <div class="main-left mb-4">
+                    <div class="">
+                        <div class="half col-md-12">
+                            <h4>ติดต่อ</h4>
+                            <hr>
+                            <ul class="mb-4">
+                                <li class="pb-1">
+                                    <a
+                                        href="https://www.linkedin.com/in/tom-s-b0b83494/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BvUf8k02HRZuI3XOeqzWshQ%3D%3D">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                        <span> Tom Saturn</span>
+                                    </a>
+                                </li>
+                                <li class="pb-1">
+                                    <a href="https://www.facebook.com/tsaturn">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <span> Tom TW Saturn</span>
+                                    </a>
+                                </li>
+                                <li class="pb-1">
+                                    <a href="https://www.facebook.com/tsaturn">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <span> @tummanoonw</span>
+                                    </a>
+                                </li>
+                                <li class="pb-1">
+                                    <i class="fa-solid fa-at"></i>
+                                    <span> barnista@gmail.com</span>
+                                </li>
+                                <li class="pb-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span> +66 9581 86242</span>
+                                </li>
+                                <li class="pb-1">
+                                    <i class="fa-solid fa-house"></i>
+                                    <span> Kratumban, Samut Sakhon, Thailand.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="half col-md-12">
+                            <h4>งานอดิเรก</h4>
+                            <hr>
+                            <div class="">
+                                <span class="badge rounded-pill bg-light text-dark me-1">🎮 &nbsp;Gaming</span>
+                                <span class="badge rounded-pill bg-light text-dark me-1">📖 &nbsp;Reading</span>
+                                <span class="badge rounded-pill bg-light text-dark me-1">💻 &nbsp;Coding</span>
+                                <span class="badge rounded-pill bg-light text-dark me-1">📈 &nbsp;Trading</span>
+                                <span class="badge rounded-pill bg-light text-dark me-1">🍿 &nbsp;Watching Movies</span>
+                                <span class="badge rounded-pill bg-light text-dark me-1">🎵 &nbsp;Listening Music</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-right mb-4">
+                    <div class="mb-4">
+                        <h4>ประวัติการทำงาน</h4>
+                        <hr>
+                        <p>
+                        <div class="mb-2">Web & Mobile Application Developer, Thai Public Broastcast Service (Thai PBS).
+                            (2021-Present)</div>
+                        <div class="mb-2">Freelance, Daydev co, ltd. (2018-Present)</div>
+                        <div class="mb-2">Lead Developer, National Institute of Emergency Medical. (2019-2021)</div>
+                        </p>
+                    </div>
+                    <div class="mb-4">
+                        <h4>ประวัติการศึกษา</h4>
+                        <hr>
+                        <p>
+                        <div class="mb-2">
+                            วท.ม. วิศวกรรมเว็บและการพัฒนาแอปพลิเคชันบนมอถือ, มหาวิทยาลัยธุรกิจบัณฑิตย์.
+                            (2021-ปัจจุบัน)
+                        </div>
+                        <div class="mb-2">
+                            วท.บ. เทคโนโลยีสารสนเทศ, มหาวิทยาลัยธุรกิจบัณฑิตย์. (2016-2020)
+                        </div>
+                        </p>
+                    </div>
+                    <div class="mb-4">
+                        <h4>ปรัชญาที่ชื่นชอบ</h4>
+                        <hr>
+                        <p>
+                        <div class="mb-2">
+                            <i class="fw-bold">"Experience without theory is blind, but theory without
+                                experience is mere intellectual play"</i> - Emmanuel Kant.
+                        </div>
+                        <div class="mb-2">
+                            <i class="fw-bold">"He will win who knows when to fight and when not to fight"</i>- Sun Tzu.
+                        </div>
+                        <div class="mb-2">
+                            <i class="fw-bold">"Fortune favours the bold"</i>- Latin proverb.
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- APP -->
+    <script src="./app.js"></script>
+</body>
+
+</html>

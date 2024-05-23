@@ -1,0 +1,132 @@
+#app{
+  margin-top: 24px;
+}
+
+.profile{
+    border-radius: 8px;
+}
+
+.paper{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: black;*/
+    box-shadow: 4px 4px 8px #33333380;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.main{
+  padding: 8px;
+  float: left;
+  width: 100%; /* The width is 20%, by default */
+}
+
+.main-left{
+  padding: 8px;
+  float: left;
+  width: 25%; /* The width is 20%, by default */
+}
+
+.main-right{
+  padding: 8px;
+  float: left;
+  width: 75%; /* The width is 20%, by default */
+}
+
+.main-left-2{
+  padding: 8px;
+  float: left;
+  width: 25%; /* The width is 20%, by default */
+}
+
+.main-right-2{
+  padding: 8px;
+  float: left;
+  width: 75%; /* The width is 20%, by default */
+}
+
+.half{
+  padding: 8px;
+  float: left;
+  width: 100%; /* The width is 20%, by default */
+}
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+  .main-left{
+    padding: 4px;
+    float: left;
+    width: 40%; /* The width is 20%, by default */
+  }
+  
+  .main-right{
+    padding: 4px;
+    float: left;
+    width: 60%; /* The width is 20%, by default */
+  }
+
+  .main-left-2{
+    padding: 4px;
+    float: left;
+    width: 40%; /* The width is 20%, by default */
+  }
+  
+  .main-right-2{
+    padding: 4px;
+    float: left;
+    width: 60%; /* The width is 20%, by default */
+  }
+  
+  .half{
+    padding: 4px;
+    float: left;
+    width: 100%; /* The width is 20%, by default */
+  }
+}
+
+
+/*mobile phone*/
+@media screen and (max-width: 480px) {
+  .main-left{
+    float: left;
+    width: 100%; /* The width is 20%, by default */
+  }
+  
+  .main-right{
+    float: left;
+    width: 100%; /* The width is 20%, by default */
+  }
+  
+  .half{
+    float: left;
+    width: 50%; /* The width is 20%, by default */
+  }
+
+  .main-left-2{
+    float: left;
+    width: 100%; /* The width is 20%, by default */
+  }
+  
+  .main-right-2{
+    float: left;
+    width: 100%; /* The width is 20%, by default */
+  }
+}
+
+
